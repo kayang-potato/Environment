@@ -1,0 +1,26 @@
+{
+  "cpp_precheck": ["clang-format", "cppcheck", "cpplint"],
+  "python_precheck": ["pylint"],
+  "ignore": ["third_party", "3rdparty", "iatface/include"],
+  "cppcheck": {
+    "suppress_option": [
+      "unusedStructMember",
+      "unmatchedSuppression",
+      "missingInclude",
+      "missingIncludeSystem",
+      "unusedFunction"
+    ]
+  },
+  "cpplint": {
+    "filter": [
+      "-build/include_alpha",
+      "-build/include",
+      "-build/include_what_you_use",
+      "-build/header_guard",
+      "-runtime/references"
+    ]
+  },
+  "pylint": {
+    "disable": []
+  }
+}
