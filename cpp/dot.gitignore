@@ -1,0 +1,6 @@
+log.txt
+*.svn
+*.pyc
+*.cache
+*.vscode
+__pycache__

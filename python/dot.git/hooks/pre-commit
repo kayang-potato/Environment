@@ -1,0 +1,142 @@
+#!/bin/sh
+#
+# Modified from http://qiita.com/janus_wel/items/cfc6914d6b7b8bf185b6
+#
+# An example hook script to verify what is about to be committed.
+# Called by "git commit" with no arguments.  The hook should
+# exit with non-zero status after issuing an appropriate message if
+# it wants to stop the commit.
+#
+# To enable this hook, rename this file to "pre-commit".
+
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then
+    against=HEAD
+else
+    # Initial commit: diff against an empty tree object
+    against=4b825dc642cb6eb9a060e54bf8d69288fbee4904
+fi
+
+readonly FILENAME=$0
+readonly WORKING_PATH=$(git rev-parse --show-toplevel)
+echo -e "[info] working_path is: ${WORKING_PATH}"
+
+readonly TOOLSPATH="$HOME/.hooks"
+source $TOOLSPATH/setting.sh
+
+## global default setting
+readonly LOG_FILE="${WORKING_PATH}/${LOGNAME}"
+readonly CONFIGFILE="$WORKING_PATH/${DEFAULT_CONFIG}"
+
+## import function
+source $TOOLSPATH/function.sh
+
+## check log file
+message=$(check_logfile)
+log_info "${message}" $LINENO
+log_info "do git commit precheck" $LINENO $FILENAME
+
+## get configured tools from $CONFIGFILE
+for checker in ${SUPPORTED_LANGUAGE[@]}; do
+    pp=$(get_config_tools "${CONFIGFILE}" "${checker}_precheck")
+    ## cpp_precheck or python_precheck
+    eval ${checker}_precheck='${pp}'
+done
+## get ignored files
+exclude_path=$(get_ignores "${CONFIGFILE}")
+
+echo -e "[info] The ignored file[path]:\033[31m ${exclude_path[@]}\033[m"
+echo -e "[info] The configured cpp precheck tools:\033[31m ${cpp_precheck[@]}\033[m"
+echo -e "[info] The configured python precheck tools:\033[31m ${python_precheck[@]}\033[m"
+log_info "The ignored file[path]: ${exclude_path[@]}" $LINENO $FILENAME
+log_info "The configured cpp precheck tools: ${cpp_precheck[@]}" $LINENO $FILENAME
+log_info "The configured python precheck tools: ${python_precheck[@]}" $LINENO $FILENAME
+
+for item in ${SUPPORTED_LANGUAGE[@]}; do
+    checker_list=$(eval echo '$'"${item}_precheck")
+    for checker in ${checker_list[@]}; do
+        # hascheck=$(cmd_exist $checker)
+        # if [ "${hascheck}" ]; then
+        #     echo -e "\033[31m !!! You have configured $checker, \033[m" >&2
+        #     echo -e " but you haven't install the $checker tools. \033[m" >&2
+        #     exit 1
+        # fi
+        option=$(get_checker_option "${checker}" "$LINENO" "$FILENAME")
+        eval ${checker}er_option="'$option'"
+        log_info "${checker} option: ${option}" $LINENO $FILENAME
+    done
+done
+echo -e " Precheck starts ... ..." 
+errors=0
+i=0
+index=0
+arr=('|' '/' '-' '\\')
+str=''
+total_num=$(git diff-index --cached --name-status $against -- | wc -l)
+for line in $(git diff-index --cached --name-status $against -- | awk '{print $2}'); do
+    ### if file in exclude_path
+    ret=$(is_file_in_exclude "${exclude_path}" "${line}")
+    if [ "${ret}" ]; then
+        echo -e "${ret}" >> $LOG_FILE
+        continue
+    fi
+    ####
+    cpp_file=$(is_cpp_file $line)
+    if [ -z "${cpp_file}" ]; then
+        py_file=$(is_py_file $line)
+        if [ -z "${py_file}" ]; then
+            ## not cpp, not py file, continue
+            index=i%4
+            num=$[$i*100/$total_num]
+            let i++
+            continue
+        fi
+    fi
+    ####
+    if [ "${cpp_file}" ]; then
+        tmp=$(hooks_check "${cpp_precheck}" "${cpp_file}" "$WORKING_PATH")
+        errors=$(expr ${errors} + ${tmp})
+    fi
+    if [ "${py_file}" ]; then
+        tmp=$(hooks_check "${python_precheck}" "${py_file}" "$WORKING_PATH")
+        errors=$(expr ${errors} + ${tmp})
+    fi
+    index=i%4
+    num=$[$i*100/$total_num]
+
+    printf "[%-20s %-2d%% %c]\r" "$str" "$num" "${arr[$index]}"
+    sleep 0.001
+    if (($i % ($total_num/20+1) == 0)); then
+        str+="#"
+    fi
+    let i++
+done
+
+printf "%-30s\r"
+echo -e " Precheck ends ... ..."
+
+if [ ${errors} -eq 0 ]; then
+    # echo `git status --porcelain`
+    for file in $(git status --porcelain | grep MM | grep -E '\.[ch](c)?(pp)?$'\
+        | awk '{print $2}'); do
+        echo -e "\033[31m Error: please use git add $file to stage. \033[m"
+        res=-1
+    done
+    if [[ ${res} -eq -1 ]]; then
+        exit 1
+    else
+        # rm $LOG_FILE
+        WARNMESSAGE=$(sed -n -e '/: warning:/p' -e '/: style:/p' -e '/: \
+            performance:/p' $LOG_FILE)
+        if [ "$WARNMESSAGE" ]; then
+            echo -e "[warning] There may be some warnings. please see log.txt"
+        else
+            rm $LOG_FILE
+        fi
+        exit 0
+    fi
+else
+    echo -e " There are some errors, please see details in log.txt."
+    echo -e "\033[31m Error: you should fix the above problem. \033[m"
+    exit 1
+fi
