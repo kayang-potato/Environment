@@ -1,0 +1,37 @@
+#!/bin/zsh
+
+autoload colors
+colors
+
+export GIT_AUTHOR_NAME="${FULLNAME}"
+export GIT_AUTHOR_EMAIL="${EMAIL}"
+export GIT_COMMITTER_NAME="${FULLNAME}"
+export GIT_COMMITTER_EMAIL="${EMAIL}"
+
+# ----------------------------------------------------------------------
+# various git scripts
+
+gitize() {
+        git init \
+        && git add . \
+        && git commit -a -m"initial commit" \
+        && git gc
+}
+
+# ----------------------------------------------------------------------
+# The following implements a caching mechanism for git information.
+# The RPROMPT executes get_git_bprompt_info() and include the output...
+#
+#   setopt prompt_subst
+#   RPROMPT="$(get_git_prompt_info)"
+#
+__ZSH_GIT_DIR=
+__ZSH_GIT_BRANCH=
+__ZSH_GIT_STATE=
+__ZSH_GIT_TS=0
+__ZSH_GIT_VARS_INVALID=1
+
+# get the name of the branch we are on
+parse_git_branch() {
+        git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1) -- /'
+}

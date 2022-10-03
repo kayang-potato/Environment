@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+#ÃüÁî±ğÃû {{{
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+alias ls='ls -F --color=auto'
+alias la='ls --color=always -a'
+alias ll='ls --color=always -l'
+alias lla='ls --color=always -la'
+alias cdmusic="cd /scratch/entertainment/music"
+alias grep='grep --color=auto'

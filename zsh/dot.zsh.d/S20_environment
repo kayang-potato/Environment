@@ -1,0 +1,45 @@
+#!/bin/zsh
+
+if [ x"$HOME" = x ]; then
+    export HOME=$(cd ~; pwd)
+fi
+
+if [ x"$HOSTNAME" = x ]; then
+    export HOSTNAME=$(hostname)
+fi
+
+export SVN_EDITOR=vim
+export EMAIL="kayang.name@outlook.com"
+export FULLNAME="kayang"
+
+# xset b off
+TZ='Asia/Shanghai'; export TZ
+
+ENCODING="en_US.UTF-8"
+export LC_CTYPE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_TIME=$ENCODING
+export LC_NUMERIC=$ENCODING
+export LC_MONETARY=$ENCODING
+export LC_PAPER=$ENCODING
+export LC_NAME=$ENCODING
+export LC_ADDRESS=$ENCODING
+export LC_TELEPHONE=$ENCODING
+export LC_MEASUREMENT=$ENCODING
+export LC_IDENTIFICATION=$ENCODING
+
+export OSFONTDIR=/usr/share/fonts
+
+export XMODIFIERS="@im=fcitx"
+export XIM=fcitx
+export XMODIFIERS='@im=fcitx'
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+
+export JAVA_HOME=/opt/jdk
+export CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib:$JAVA_HOME/lib:/opt/android-sdk/tools/lib/x86:
+
+# OpenCL, OpenMP settings
+export MKL_NUM_THREADS=32
+export OMP_NUM_THREADS=32
+export OPENCV_OPENCL_DEVICE="Intel"

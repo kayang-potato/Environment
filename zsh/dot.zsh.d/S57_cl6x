@@ -1,0 +1,2 @@
+export C6X_C_DIR=/scratch/progs/ccs/ccsv5/tools/compiler/c6000_7.3.4
+export C6X_C_OPTION=--run_linker
