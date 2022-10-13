@@ -367,4 +367,9 @@ set mouse-=a
 
 nnoremap <silent> <Leader>f :Files<CR>
 nnoremap <silent> <Leader>b :Buffers<CR>
-nnoremap <silent> <Leader>A :Ag<CR>
+nnoremap <silent> <Leader>a :Ag<CR>
+nnoremap <silent> <c-p> :Files<CR>
+nmap w=  :resize +3<CR>
+nmap w-  :resize -3<CR>
+nmap w,  :vertical resize -3<CR>
+nmap w.  :vertical resize +3<CR>
