@@ -104,7 +104,7 @@
 - coc
 - nvim
   - fzf
-  - Ag
+  - Ag(the_silver_searcher)
   - Other，参考init.vim
 
 
