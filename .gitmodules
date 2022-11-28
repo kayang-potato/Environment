@@ -1,3 +1,21 @@
 [submodule "nvim/dot.config/nvim/plugged/auto-pairs"]
 	path = nvim/dot.config/nvim/plugged/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "nvim/dot.config/nvim/plugged/coc.nvim"]
+	path = nvim/dot.config/nvim/plugged/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "nvim/dot.config/nvim/plugged/eleline.vim"]
+	path = nvim/dot.config/nvim/plugged/eleline.vim
+	url = https://github.com/liuchengxu/eleline.vim.git
+[submodule "nvim/dot.config/nvim/plugged/fzf.git"]
+	path = nvim/dot.config/nvim/plugged/fzf.git
+	url = https://github.com/junegunn/fzf.git
+[submodule "nvim/dot.config/nvim/plugged/fzf.vim"]
+	path = nvim/dot.config/nvim/plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "nvim/dot.config/nvim/plugged/indentLine"]
+	path = nvim/dot.config/nvim/plugged/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "nvim/dot.config/nvim/plugged/vim-one"]
+	path = nvim/dot.config/nvim/plugged/vim-one
+	url = https://github.com/rakr/vim-one.git
