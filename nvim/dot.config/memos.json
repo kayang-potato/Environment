@@ -1,0 +1,1124 @@
+{
+  "coc-python|/Users/kayang/git/github/Environment": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/opt/homebrew/anaconda3/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed"
+      },
+      "expiry": 1669571596136
+    },
+    "/opt/homebrew/anaconda3/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "59d5ba0cd67c6ed229d7de452773d550bb4a3173d352abb529bd0a7eaa274087d14a338145bb426fe81ce16eba51c2e033416b75b48b7fc06dcbee1be3cc4422"
+      },
+      "expiry": 1669571596097
+    },
+    "/opt/homebrew/anaconda3/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86"
+      },
+      "expiry": 1669571596096
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/opt/homebrew/anaconda3/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.12-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 12,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.12-final"
+      },
+      "sysPrefix": "/opt/homebrew/anaconda3",
+      "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.6-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.6-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8",
+      "type": "Unknown",
+      "displayName": "Python 3.10.6 64-bit"
+    },
+    "/opt/homebrew/anaconda3/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/anaconda3/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.12-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 12,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.12-final"
+          },
+          "sysPrefix": "/opt/homebrew/anaconda3",
+          "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/opt/homebrew/anaconda3",
+          "envName": "base",
+          "displayName": "Python 3.9.12 64-bit ('base': conda)"
+        }
+      },
+      "expiry": 1669640870492
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "76b4fa1af3b2ec60388f4030e3eb95151b642b95e6b126bd5d3574ac8302d2369fb1708ca0dfeef67dcba36bb0069a51569f5feb44ed4f208d9a57c59bbe8202"
+      },
+      "expiry": 1665979661539
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "59d5ba0cd67c6ed229d7de452773d550bb4a3173d352abb529bd0a7eaa274087d14a338145bb426fe81ce16eba51c2e033416b75b48b7fc06dcbee1be3cc4422",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.6-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.6-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+        "fileHash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.6-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.6-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+        "fileHash": "a13b45000ded7bec16aee1050bfffa21dd2fafeebf985d48bf7233814201484165f69b5c81d9be90db5da99ead8ff538ce0d79078a7f4740f592fcac7d03a6ab",
+        "type": "Unknown"
+      }
+    ],
+    "/opt/homebrew/anaconda3/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.12 64-bit ('base': conda)",
+        "hash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed-5628d6915f12e1ab930b354aa2cbb21e"
+      },
+      "expiry": 1669640870491
+    },
+    "CONDA_ENVIRONMENTS": {
+      "data": [
+        {
+          "name": "base",
+          "path": "/opt/homebrew/anaconda3"
+        }
+      ]
+    },
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/homebrew/anaconda3",
+        "envName": "base"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/homebrew/anaconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/homebrew/anaconda3",
+        "envName": "base"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.9 64-bit",
+        "hash": "76b4fa1af3b2ec60388f4030e3eb95151b642b95e6b126bd5d3574ac8302d2369fb1708ca0dfeef67dcba36bb0069a51569f5feb44ed4f208d9a57c59bbe8202-925beaad1a785190ec59372f60b30d00"
+      },
+      "expiry": 1665979661613
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.6-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.6-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8",
+      "type": "Unknown",
+      "displayName": "Python 3.10.6 64-bit"
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "76b4fa1af3b2ec60388f4030e3eb95151b642b95e6b126bd5d3574ac8302d2369fb1708ca0dfeef67dcba36bb0069a51569f5feb44ed4f208d9a57c59bbe8202",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.9-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.9-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "76b4fa1af3b2ec60388f4030e3eb95151b642b95e6b126bd5d3574ac8302d2369fb1708ca0dfeef67dcba36bb0069a51569f5feb44ed4f208d9a57c59bbe8202",
+          "type": "Unknown",
+          "displayName": "Python 3.8.9 64-bit"
+        }
+      },
+      "expiry": 1665979661619
+    },
+    "ProposeLSBanner": false,
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.6-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.6-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.10.6 64-bit"
+    },
+    "/opt/homebrew/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.6-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.6-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+        "fileHash": "a13b45000ded7bec16aee1050bfffa21dd2fafeebf985d48bf7233814201484165f69b5c81d9be90db5da99ead8ff538ce0d79078a7f4740f592fcac7d03a6ab"
+      },
+      "expiry": 1669571596104
+    },
+    "/opt/homebrew/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.6-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.6-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+        "fileHash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8"
+      },
+      "expiry": 1669571596104
+    },
+    "/opt/homebrew/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.6 64-bit",
+        "hash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8-e555af5c7f30973d2afbc75568cadcbf"
+      },
+      "expiry": 1669571596134
+    },
+    "/opt/homebrew/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.6-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.6-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+          "fileHash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8",
+          "type": "Unknown",
+          "displayName": "Python 3.10.6 64-bit"
+        }
+      },
+      "expiry": 1669571596137
+    },
+    "/opt/homebrew/anaconda3/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86"
+      },
+      "expiry": 1664369005880
+    },
+    "/opt/homebrew/anaconda3/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.12 64-bit ('anaconda3': virtualenv)",
+        "hash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86-98499feaf5d1613206732a747a7af9c5"
+      },
+      "expiry": 1664369005887
+    },
+    "/opt/homebrew/anaconda3/bin//python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin//python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed"
+      },
+      "expiry": 1665979827691
+    },
+    "/opt/homebrew/anaconda3/bin//python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin//python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86"
+      },
+      "expiry": 1665979827691
+    },
+    "/opt/homebrew/anaconda3/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "59d5ba0cd67c6ed229d7de452773d550bb4a3173d352abb529bd0a7eaa274087d14a338145bb426fe81ce16eba51c2e033416b75b48b7fc06dcbee1be3cc4422"
+      },
+      "expiry": 1665984862532
+    },
+    "/opt/homebrew/anaconda3/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.12 64-bit ('anaconda3': virtualenv)",
+        "hash": "59d5ba0cd67c6ed229d7de452773d550bb4a3173d352abb529bd0a7eaa274087d14a338145bb426fe81ce16eba51c2e033416b75b48b7fc06dcbee1be3cc4422-249536819254d8fef55de99a9d3e22e8"
+      },
+      "expiry": 1665984862544
+    }
+  },
+  "coc-python|/Users/kayang/git/github/test": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:4a582c85a292eaea0ba6e1c406963668": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:4a582c85a292eaea0ba6e1c406963668": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kayang/git/github/test": {
+      "architecture": 3,
+      "path": "/opt/homebrew/anaconda3/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.12-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 12,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.12-final"
+      },
+      "sysPrefix": "/opt/homebrew/anaconda3",
+      "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/opt/homebrew/anaconda3/bin/python3",
+    "INTERPRETERS_CACHE_v3_PipEnvService:7f48cdfd68a81961bce0d45323b2ac1a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7f48cdfd68a81961bce0d45323b2ac1a": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "59d5ba0cd67c6ed229d7de452773d550bb4a3173d352abb529bd0a7eaa274087d14a338145bb426fe81ce16eba51c2e033416b75b48b7fc06dcbee1be3cc4422",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      }
+    ]
+  },
+  "coc-python|/Users/kayang/git/github/machine-learning-tools": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:db7770acd83b913ce95acb5bd20159b1": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:db7770acd83b913ce95acb5bd20159b1": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kayang/git/github/machine-learning-tools": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.6-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.6-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+      "fileHash": "a9238cd299c31708492684129ec9bfc7c86e099e54910aa6cc75121b007504a991ef493c68c3bf054980491ea46e3c4f568d4d48bd50ddc9bbdd2c8e70796bd8",
+      "type": "Unknown",
+      "displayName": "Python 3.10.6 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:848626c427456864ae218e6e5ee7b6f7": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:848626c427456864ae218e6e5ee7b6f7": []
+  },
+  "coc-python|/Users/kayang/git/github/machine-learning-tools/ml": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/kayang/git/github/auto_ml": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:848626c427456864ae218e6e5ee7b6f7": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:848626c427456864ae218e6e5ee7b6f7": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/opt/homebrew/anaconda3/bin/python3",
+    "INTERPRETERS_CACHE_v3_PipEnvService:7f48cdfd68a81961bce0d45323b2ac1a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7f48cdfd68a81961bce0d45323b2ac1a": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "59d5ba0cd67c6ed229d7de452773d550bb4a3173d352abb529bd0a7eaa274087d14a338145bb426fe81ce16eba51c2e033416b75b48b7fc06dcbee1be3cc4422",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      }
+    ]
+  },
+  "coc-python|/opt/homebrew": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7f48cdfd68a81961bce0d45323b2ac1a": [],
+    "SelectedPythonPath": "/opt/homebrew/anaconda3/bin/python3",
+    "autoSelectedWorkspacePythonInterpreter-/opt/homebrew": {
+      "architecture": 3,
+      "path": "/opt/homebrew/anaconda3/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.12-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 12,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.12-final"
+      },
+      "sysPrefix": "/opt/homebrew/anaconda3",
+      "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7f48cdfd68a81961bce0d45323b2ac1a": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "59d5ba0cd67c6ed229d7de452773d550bb4a3173d352abb529bd0a7eaa274087d14a338145bb426fe81ce16eba51c2e033416b75b48b7fc06dcbee1be3cc4422",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "ffd1981d605a37799cfbd368b8a39c12f523073c87c65be9101193e8e6cce9460f651b4a42d7deb58ed4742d6c7e5a469ee5b2eeb3325089d74fc2aed655aeed",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "c64ad0c05efab313f740369fd9e9fc08824bd0f4fe89735c4b41371485b8c1e7685f3ec76a9efc941b363868bb7d3781b9a74b3ae4a7eb90484a96bfede6ce86",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/anaconda3/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/opt/homebrew/anaconda3",
+        "fileHash": "59d5ba0cd67c6ed229d7de452773d550bb4a3173d352abb529bd0a7eaa274087d14a338145bb426fe81ce16eba51c2e033416b75b48b7fc06dcbee1be3cc4422",
+        "envName": "anaconda3",
+        "type": "VirtualEnv"
+      }
+    ]
+  }
+}

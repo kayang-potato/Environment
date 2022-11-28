@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "coc-clangd": ">=0.25.0",
+    "coc-python": ">=1.2.13",
+    "coc-prettier": ">=9.3.1",
+    "coc-tsserver": ">=1.11.11",
+    "coc-react-refactor": ">=0.5.0",
+    "coc-snippets": ">=3.1.5"
+  }
+}
