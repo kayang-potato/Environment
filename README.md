@@ -132,7 +132,19 @@
 
 # other
 
-- zotero
-- zeal
 - llvm，用于安装clang-tidy
 - Clang-format
+
+# 日常办公软件
+
+- google
+- outlook
+- notepad++
+- navicat
+- typora
+- mobaxterm
+- adoba acrobat2017
+- zeal
+- xmind
+- viso
+- zotero
